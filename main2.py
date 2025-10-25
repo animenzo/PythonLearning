@@ -131,3 +131,27 @@ a = "piyush is a boy"
 #     print("not pal")
 
 
+# guess a number game and count the tries until he got the number correct
+
+import random
+
+num = random.randint(1,10)
+
+
+tries = 0
+while True:
+    guess = int(input("Please guess a number: "))
+
+    if num == guess:
+        tries+=1
+        print(f"you are right tries = {tries}")
+        break
+    elif num<guess:
+        tries+=1
+        print("go a little lower")
+    elif num>guess:
+        tries+=1
+        print("go a little higher")
+    else:
+        tries+=1
+        print("sorry try again")
