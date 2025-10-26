@@ -33,15 +33,33 @@
 
 # print("done")
 
-age = int(input("tell age: "))
+# age = int(input("tell age: "))
 
-try:
-    if age <10 or age >18:
-        raise ValueError("you age must be bet 10 and 18")
-    else:
-     print("welcom")
+# try:
+#     if age <10 or age >18:
+#         raise ValueError("you age must be bet 10 and 18")
+#     else:
+#      print("welcom")
     
-except Exception as err:
-   print(f"an eror occured as{err}")
+# except Exception as err:
+#    print(f"an eror occured as{err}")
 
-print("lcub")
+# print("lcub")
+
+
+
+# ---------------file handling-----------
+# open and fn - opens a file for us and read in terminal
+# p = open("F:/1placeprep/Python/tempCodeRunnerFile.py")
+
+# print(p.read())
+
+# r =  open("ironman.txt","w")
+# r =  open("ironman.txt","a")
+# r =  open("ironman.txt","x")
+# # x = creates a new file only
+# # r.write("hello this is me the ironman making nanotech suit")
+# r.write("so let do this")
+# r.close()
+
+
